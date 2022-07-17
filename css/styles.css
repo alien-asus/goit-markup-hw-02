@@ -1,33 +1,50 @@
-body{
-    background-color: antiquewhite;
+/*------------------------Тело сайта----------------------------*/
+
+.body {
+    background-color: #F5F5F5;
 }
+
 .logo {
+    color: #000000;
 }
-.site-nav {
+
+.list{
+    list-style:none;
 }
-.item-nav {
+
+/*---------------------Навигация сайта------------------------*/
+
+.site-nav .link{
+    color:#212121;
 }
-.contacts {
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #2196F3;
 }
-.contact-item {
+
+/*----------------------------Контакты-------------------------*/
+
+.contact-list {
+    color: #757575;
+} 
+
+.contact-list:hover,
+.contact-list:focus{
+    color: #2196F3;
 }
-.site-button {
-}
+
+/*--------------------------Шапка сайта-----------------------*/
 .site-title {
+    color: #FFFFFF;
+
 }
-.subtitle-section {
+
+.button {
+    color: #FFFFFF;
 }
-.menu-items {
-}
-.site-item {
-}
-.site-detail {
-}
-.profiles-section {
-}
-.profiles-items {
-}
-.subtitle-sections {
-}
-.site-user {
+
+.button:hover,
+.button:focus {
+    color: #2196F3;
 }
