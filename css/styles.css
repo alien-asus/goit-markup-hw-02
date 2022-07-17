@@ -36,16 +36,17 @@
 
 /*--------------------------Шапка сайта-----------------------*/
 .site-title {
-    color: #FFFFFF;
+    color: ;
 }
 
 .button {
+    background-color: #2196F3;
     color: #FFFFFF;
 }
 
 .button:hover,
 .button:focus {
-    color: #2196F3;
+
 }
 
 /*---------------------------Детали-----------------------------*/
