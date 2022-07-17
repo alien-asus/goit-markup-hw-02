@@ -33,6 +33,7 @@
     .header-list {
         list-style-type: none;
     }
+    
     .header-list:hover,
     .header-list:focus {
         color: var(--accent-color);
