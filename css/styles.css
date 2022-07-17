@@ -25,19 +25,18 @@
 
 /*----------------------------Контакты-------------------------*/
 
-.contact-list {
+.site-contact .contact-list {
     color: #757575;
 } 
 
-.contact-list:hover,
-.contact-list:focus{
+.site-contact .contact-list:hover,
+.site-contact .contact-list:focus{
     color: #2196F3;
 }
 
 /*--------------------------Шапка сайта-----------------------*/
 .site-title {
     color: #FFFFFF;
-
 }
 
 .button {
@@ -47,4 +46,16 @@
 .button:hover,
 .button:focus {
     color: #2196F3;
+}
+
+/*---------------------------Детали-----------------------------*/
+
+.section-item .section-subtitle
+.section-title{
+    color: #212121;
+}
+
+
+.section-content {
+    color: #757575;
 }
