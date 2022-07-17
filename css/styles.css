@@ -29,6 +29,7 @@
     .list {
         list-style-type: none;
     }
+
     .header-list {
         list-style-type: none;
     }
@@ -62,6 +63,16 @@
         color: var(--pt-color);
         text-decoration: none;
     }
+
+    .mail-header:hover,
+    .mail-header:focus {
+        color: #2196F3;
+    }
+    .tel:hover,
+    .tel:focus {
+        color: #2196F3;
+    }
+    
     .section-main {
         background-color: var(--tbg-color);
     }
