@@ -4,26 +4,30 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>WebStudio</title>
+		<title class="logo">WebStudio</title>
+		<link rel="stylesheet" href="./css/styles.css">
+		<link 
+			href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"
+		/>
 	</head>
 
 	<body>
 		<header>
 			<!--Главное меню-->
 			<nav>
-				<a href="index.html">WebStudio</a>
-				<ul>
-					<li><a href="#">Студия</a></li>
-					<li><a href="#">Портфолио</a></li>
-					<li><a href="#">Контакты</a></li>
+				<a href="index.html" class="logo">WebStudio</a>
+				<ul class="site-nav">
+					<li class="item-nav"><a href="#">Студия</a></li>
+					<li class="item-nav"><a href="./portfolio.html">Портфолио</a></li>
+					<li class="item-nav"><a href="#">Контакты</a></li>					
 				</ul>
 			</nav>
 			<!--Контакты-->
-			<ul>
-				<li>
+			<ul class="contacts">
+				<li class="contact-item">
 					<a href="mailto:info@devstudio.com">info@devstudio.com</a>
 				</li>
-				<li>
+				<li class="contact-item">
 					<a href="tel:+380961111111">+38 096 111 11 11</a>
 				</li>
 			</ul>
@@ -31,63 +35,64 @@
 		</header>
 		<main>
 			<!--Шапка-->
-			<section>
-				<h1> Эффективные решения для вашего бизнеса </h1>
+			<section class="site-button">
+				<h1 class="site-title"> Эффективные решения для вашего бизнеса </h1>
 				<button type="button">Заказать услугу</button>
 			</section>
 			<!--Детали-->
 			<section>
-				<h2>Особенности компании</h2>
-				<ul>
-					<li>
-						<h3>Внимание к деталям</h3>
+				<h2 class="subtitle-section">Особенности компании</h2>
+				<ul class="menu-items">
+					<li class="site-item">
+						<h3 class="site-detail">Внимание к деталям</h3>
 						<p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 					</li>
-					<li>
-						<h3>Пунктуальность</h3>
+					<li class="site-item">
+						<h3 class="site-detail">Пунктуальность</h3>
 						<p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
 					</li>
-					<li>
-						<h3>Планирование</h3>
+					<li class="site-item">
+						<h3 class="site-detail">Планирование</h3>
 						<p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
 					</li>
-					<li>
-						<h3>Современные технологии</h3>
+					<li class="site-item">
+						<h3 class="site-detail">Современные технологии</h3>
 						<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 					</li>
 				</ul>
 			</section>
-			<!--Занятия-->
-			<section>
-				<h2> Чем мы занимаемся </h2>
-				<ul>
-					<li><img src="./images/employment-img-1.jpg" alt="разработка структуры" width="370" height="294" /></li>
-					<li><img src="./images/employment-img-2.jpg" alt="дизайн мобильных приложений" width="370" height="294"/></li>
-					<li><img src="./images/employment-img-3.jpg" alt="работа с палитрой" width="370" height="294" /></li>
+
+			<section class="profiles-section">
+				<!--Занятия-->
+				<h2 class="subtitle-section"> Чем мы занимаемся </h2>
+				<ul class="profiles-items">
+					<li class="site-item"><img src="./images/employment-img-1.jpg" alt="разработка структуры" width="370" height="294" /></li>
+					<li class="site-item"><img src="./images/employment-img-2.jpg" alt="дизайн мобильных приложений" width="370" height="294"/></li>
+					<li class="site-item"><img src="./images/employment-img-3.jpg" alt="работа с палитрой" width="370" height="294" /></li>
 				</ul>
 			</section>
 			<!--Команда-->
 			<section>
-				<h2> Наша команда </h2>
+				<h2 class="subtitle-sections"> Наша команда </h2>
 				<ul>
 					<li>
 						<img src="./images/team-member-1.jpg" alt="фото учасника команды" width="270" height="260" />
-						<h3>Игорь Демьяненко</h3>
+						<h3 class=" site-user">Игорь Демьяненко</h3>
 						<p>Product Designer</p>
 					</li>
 					<li>
 						<img src="./images/team-member-2.jpg" alt="фото учасника команды" width="270" height="260" />
-						<h3>Ольга Репина</h3>
+						<h3 class=" site-user">Ольга Репина</h3>
 						<p>Frontend Developer</p>
 					</li>
 					<li>
 						<img src="./images/team-member-3.jpg" alt="фото учасника команды" width="270" height="260" />
-						<h3>Николай Тарасов</h3>
+						<h3 class=" site-user">Николай Тарасов</h3>
 						<p>Marketing</p>
 					</li>
 					<li>
 						<img src="./images/team-member-4.jpg" alt="фото учасника команды" width="270" height="260" />
-						<h3>Михаил Ермаков</h3>
+						<h3 class=" site-user">Михаил Ермаков</h3>
 						<p>UI Designer</p>
 					</li>
 				</ul>
