@@ -29,11 +29,11 @@
     .list {
         list-style-type: none;
     }
-    .list-force {
+    .header-list {
         list-style-type: none;
     }
-    .list-force :hover,
-    .list-force :focus {
+    .header-list:hover,
+    .header-list:focus {
         color: var(--accent-color);
     }
     .list-img {
@@ -62,7 +62,7 @@
         color: var(--pt-color);
         text-decoration: none;
     }
-    .section1 {
+    .section-main {
         background-color: var(--tbg-color);
     }
     .h1 {
@@ -88,7 +88,7 @@
         cursor: pointer;
         border: none;
     }
-    .section2 {
+    .section-bebefits {
         font-weight: 400;
         line-height: 24px; 
     }
